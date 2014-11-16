@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name icloud-notes-ime-fix.user.js
 // @namespace http://www.robario.com/
-// @version 0.1.1
+// @version 0.1.2
 // @author robario <webmaster@robario.com>
 // @description Fix the IME problem of iCloud notes.
 // @updateURL https://raw.githubusercontent.com/robario/icloud-notes-ime-fix/master/icloud-notes-ime-fix.user.js
 // @match https://www.icloud.com/*
 // @require https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js
+// @grant unsafeWindow
 // ==/UserScript==
 jQuery(function($) {
     if (location.hash !== '#notes') {
